@@ -1,0 +1,29 @@
+body {
+    background-color: mintcream;
+}
+
+h1 {
+    color: mediumaquamarine;
+}
+h2 {
+    color: seagreen;
+}
+h3 {
+    color: seagreen;
+}
+th{
+    color: seagreen;
+}
+hr{
+    background-color: mintcream;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: lightblue;
+    border-width: 10px;
+    width: 5%;
+}
+
+.circular{
+    height: 150px;
+    border-radius: 25%;
+}
