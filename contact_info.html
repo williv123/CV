@@ -1,17 +1,35 @@
-<!DOCTYPE html>
 <html>
+    <head>
+        <meta charset="UTF-8">
+        
+        <title>William's Contact info</title>
+        <link rel="stylesheet" href="css\styles.css">
+    
+    </head>
     <body>
-        <center><h1><a href="My_website.html">Home </a></h1></center>
+        <center><h1><a href="My_website.html">Home Page</a></h1></center>
         <h3>Contact details:</h3>
         <ul>
             <li>William Hansen</li>
             <li>Phone : +1 507-226-5147</li>
-            <li>Email : <ul>
-                <li> Personal: williv824@gmail.com</li>
-                <li> Business: will.hansen@ibm.com</li>
+            <li>
+                <table>
+                    <tr>
+                        <td>Email:</td> 
+                    </tr>
+                    <tr>
+                        <td>Personal</td>
+                        <td>williv824@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Business</td>
+                        <td>will.hansen@ibm.com</td>
+                    </tr>
+                </table> 
+            </li>          
             </ul></li>
         </ul>
-
+        <hr size="2" noshade>
         <form action="mailto:williv824@gmail.com" method="post" enctype="text/plain">
             <label>Your Name:</label>
             <input type="text" name="yourName" value=""><br>
@@ -21,5 +39,6 @@
             <textarea name="yourMessage" rows="10" cols="100"></textarea><br>
             <input type="submit" name="">
         </form>
+        <hr size="2" noshade>
     </body>
 </html>
